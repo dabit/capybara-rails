@@ -1,6 +1,6 @@
 class ActiveSupport::TestCase
   include ActiveRecord::TestFixtures
-  self.use_transactional_fixtures = false
+  self.use_transactional_tests = false
 
   setup do
     DatabaseCleaner.start
